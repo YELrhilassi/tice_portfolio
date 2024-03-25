@@ -1,5 +1,5 @@
 ---
-title: "I’m John Doe, A content writer based in LDN, Currently at Bookworm"
+title: "Hey there! I’m John Youssef El Rhilassi based in Morocco,"
 meta_title: "About"
 image: "/images/author.png"
 draft: false
@@ -17,4 +17,4 @@ what_i_do:
       description: "I love tinkering with circuits, designing innovative solutions and custom electronics projects, pushing the boundaries of technology with each endeavor."
 ---
 
-Hey there! I'm Youssef El Rhilassi, an English teacher with a passion for education and technology. I'm dedicated to empowering students through innovative teaching methods, both inside and outside the classroom. When I'm not teaching, you'll find me exploring nature, writing, and immersing myself in creative pursuits. Let's embark on this journey of learning together!
+I'm an English teacher with a passion for education and technology. I'm dedicated to empowering students through innovative teaching methods, both inside and outside the classroom. When I'm not teaching, you'll find me exploring nature, writing, and immersing myself in creative pursuits. Let's embark on this journey of learning together!
