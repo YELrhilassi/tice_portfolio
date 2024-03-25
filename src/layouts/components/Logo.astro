@@ -8,16 +8,18 @@ const {
   logo_height,
   logo_text,
   title,
+  base_path,
 }: {
   logo: string;
   logo_width: any;
   logo_height: any;
   logo_text: string;
   title: string;
+  base_path: string;
 } = config.site;
 ---
 
-<a href="/" class="navbar-brand block">
+<a href={base_path? base_path:"/"} class="navbar-brand block">
   {
     src || logo ? (
       <Image

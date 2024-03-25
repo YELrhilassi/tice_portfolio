@@ -3,7 +3,9 @@ import { markdownify } from "@/lib/utils/textConverter";
 import { Image } from "astro:assets";
 import { BsArrowRightCircle } from "react-icons/bs";
 import type { TAuthor } from "@/types";
+import config from "@/config/config.json";
 const { authors } = Astro.props;
+const {site:{base_path}} = config;
 ---
 
 <div class="row justify-center">
@@ -23,7 +25,7 @@ const { authors } = Astro.props;
         )}
         <h3 class="h4 mt-8 mb-3">
           <a
-            href={`/authors/${author.slug}`}
+            href={`${base_path}/authors/${author.slug}`}
             class="block hover:text-primary transition duration-200"
           >
             {author.data.title}
@@ -31,7 +33,7 @@ const { authors } = Astro.props;
         </h3>
         <p class="mb-3" set:text={markdownify(author.body.slice(0, 100))} />
         <a
-          href={`/authors/${author.slug}`}
+          href={`${base_path}/authors/${author.slug}`}
           class="inline-flex items-center text-primary transition duration-200 hover:opacity-70"
         >
           Read More <BsArrowRightCircle className="inline ml-2" />
